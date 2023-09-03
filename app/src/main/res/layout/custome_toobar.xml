@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="@dimen/_8sdp"
+        android:layout_margin="@dimen/_3sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="@dimen/_70sdp"
+        android:scaleType="centerCrop"
+        android:layout_height="match_parent"
+        android:src="@drawable/niewsicon"
+/>
+    </androidx.cardview.widget.CardView>
+
+</androidx.cardview.widget.CardView>

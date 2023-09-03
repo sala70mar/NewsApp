@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ChatAppS" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#F782B8EE</item>
+         <item name="colorPrimaryVariant">#F782B8EE</item>
+         <item name="colorOnPrimary">#F7072340</item>
+
+         <item name="colorSecondary">#F78324B6</item>
+         <item name="colorSecondaryVariant">#6826DD</item>
+         <item name="colorOnSecondary">#390C88</item>
+
+         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.ChatAppS" parent="Base.Theme.ChatAppS" />
+</resources>
